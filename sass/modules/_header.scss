@@ -1,0 +1,61 @@
+
+
+// header始まり
+.name{
+    @include name();
+}
+.summary-header{
+    @include header();
+    .list{
+        @include list();
+        .li{
+            @include li();
+            a{
+                @include a();
+            }
+        }
+        li:hover{
+            @include li-hover();
+        }
+    }
+}
+
+// header終わり
+
+
+// container始まり
+.container{
+    .pic-size{
+        height: 100vh;
+        width: 100%;
+    }
+    .item{
+        text-align: center;
+        font-size: 60px;
+        font-family: 'Pacifico', cursive;
+        margin-bottom: 100px;
+    }
+}
+
+// container終わり
+
+
+
+
+// レスポンシブ対応
+// header
+
+
+
+
+
+@media screen and (max-width:560px){
+    .name{
+        font-size: 20px;
+    }
+    .li{
+        a{
+            font-size: 20px;
+        }
+    }
+}

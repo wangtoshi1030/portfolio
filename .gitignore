@@ -1,0 +1,3 @@
+node_modules
+assets/css
+# これを書くとこのファイルが無視される

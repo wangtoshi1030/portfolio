@@ -1,0 +1,31 @@
+.main{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    .all{
+        .box{
+            .headline{
+                font-size: 30px;
+                border-bottom: 2px solid red;
+            }
+            .part{
+                display: flex;
+                margin-bottom: 50px;
+                .main-pic{
+                    width: 30%;
+                    height: 300px;
+                    border-radius: 10%;
+                    .sentence{
+                        width: 70%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.red{
+    color: red;
+    font-weight: bold;
+}

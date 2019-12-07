@@ -1,0 +1,14 @@
+
+
+.footer{
+    @include footer();
+    .last{
+        @include last();
+    }
+    .arrow{
+        @include arrow();
+    }
+    .arrow:hover{
+        @include arrow-hover();
+    }
+}
