@@ -64,3 +64,29 @@
 @mixin arrow-hover() {
     color: rgb(89, 86, 86);
 }
+
+
+// footer終わり
+
+
+
+
+// php-main始まり
+@mixin bgPos {
+    background-image: url(../../img-php/十人十色.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin strings {
+    font-size: 50px;
+    color: gray;
+    font-weight: bold;
+    border: 3px solid black;
+}
+

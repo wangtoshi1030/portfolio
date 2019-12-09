@@ -1,0 +1,49 @@
+
+
+
+
+.container-php{
+    .imgPen{
+        @include bgPos();
+        .parsonality{
+            @include strings();
+        }
+    }
+    .col-h{
+        background-color: black;
+        height: 0.0000001vh;
+    }
+    .imgBook{
+        background-image: url(../../img-php/本とメガネ.jpg);
+        height: 100vh;
+        width: 100%;
+        background-size: cover;
+        background-attachment: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .myself{
+            font-size: 50px;
+            color: gray;
+            font-weight: bold;
+            border: 3px solid black;
+        }
+    }
+    .push{
+        background-image: url(../../img-php/StartLine_image.jpg);
+        height: 100vh;
+        width: 100%;
+        background-size: cover;
+        background-attachment: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .start{
+            font-size: 50px;
+            color: gray;
+            font-weight: bold;
+            border: 3px solid black;
+        }
+    }
+
+}

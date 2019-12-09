@@ -2,12 +2,17 @@
 // 読み込む順番が大切
 
 
+@import './base/**';
+
 // mixin
 @import './mixin/**';
 // header, footer, ボタンなどの部品
 @import './modules/**';
 
-@import './php-modules/**';
+
+
+
+
 
 
 
