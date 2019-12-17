@@ -73,6 +73,7 @@
             flex-direction: column;
             align-items: center;
             .enter{
+                width: 500px;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
@@ -187,8 +188,11 @@
 
 }
 
+//answer.php終わり
 
 
+
+//レスポンシブ対応
 @media screen and(max-width:896px){
     .summary-header-php{
         .list-php{
@@ -208,6 +212,13 @@
                         border-radius: 100%;
                         padding: 10px;
                         font-size: 20px;
+                        transition: 0.5s;
+                    }
+                    .btn:hover{
+                        background-color: black;
+                        color: white;
+                        transition: 0.5s;
+                        box-shadow: 2px 2px 2px 2px gray;
                     }
                     .res-li-php{
                         margin-top: 20px;
@@ -216,9 +227,34 @@
                             text-decoration: none;
                             color: black;
                         }
+                        a:hover{
+                            font-weight: bold;
+                            border-bottom: 1px solid red;
+                        }
                     }
                 }
         }
+        }
+    }
+}
+
+
+
+
+@media screen and (max-width:896px){
+    .container-php{
+        .imgPen{
+            .separate{
+                .fourH{
+                    font-size: 16px;
+                }
+            }
+            .toggle{
+                overflow: auto;
+                .pearent{
+                    display: block;
+                }
+            }
         }
     }
 }
