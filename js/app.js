@@ -22,6 +22,14 @@ $(function(){
         $("html,body").animate({scrollTop:name},1000);
     })
 
+
+    $(".btn").on("click",function(){
+        console.log("clicked");
+        $(".btn")
+        .siblings(".res-li")
+        .slideToggle();
+    })
+
 });
 
 
