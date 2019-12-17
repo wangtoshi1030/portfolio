@@ -11,6 +11,8 @@ $(function(){
     // dots: false,
     // cssEase: 'linear',
     pauseOnHover: false,
+    // arrows: falseで横の余白をなくす余白にarrowsのボタンがあるため空白が開く
+    arrows: false
     })
 
     //  押したらtopへ戻る
