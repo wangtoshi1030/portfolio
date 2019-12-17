@@ -8,7 +8,7 @@ $(function(){
     fade: true,
     autoplay: true,
     autoplaySpeed: 4000,
-    dots: false,
+    // dots: false,
     // cssEase: 'linear',
     pauseOnHover: false,
     })

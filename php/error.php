@@ -76,6 +76,9 @@
                             <div class="input-part">男性<input class="required"  type="radio" name="gender" value="男"></div>
                             <div class="input-part">女性<input class="required"  type="radio" name="gender" value="女"></div>
                         </div>
+                        <div class="error-box">
+                            <p class="error">未入力事項があります</p>
+                        </div>
                     </div>
                 </div>
             </div>

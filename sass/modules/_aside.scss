@@ -1,13 +1,15 @@
 
+
+// overflow:hiddenするとstickeyは動かない
 .wrapper{
     height: 100%;
     position: -webkit-sticky;
-        position: sticky;
-        top: 0;
-        left: 0;
+    position: sticky;
+    top: 0;
+    left: 0;
     .sticky{
         // border: 1px solid;
-        width: 100%;
+        width: 100px;
 
         .skill-size{
             font-size: 30px;

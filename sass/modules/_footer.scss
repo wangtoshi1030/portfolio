@@ -3,7 +3,7 @@
 .footer{
     @include footer();
     .last{
-        @include last();
+        @include hos();
     }
     .arrow{
         @include arrow();

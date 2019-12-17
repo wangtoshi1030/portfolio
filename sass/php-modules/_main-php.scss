@@ -1,33 +1,57 @@
 
 
-
+// index.php
 
 .container-php{
     .imgPen{
         @include bgPos();
+        display: flex;
+        flex-direction: column;
         .parsonality{
             @include strings();
         }
+        .parsonality:hover{
+            @include changeText();
+        }
+        .separate{
+            display: none;
+            margin-top: 30px;
+            background-color: gray;
+            color: white;
+            font-weight: bold;
+            .fourH{
+                border: 1px solid black;
+                padding: 30px;
+                font-size: 25px;
+            }
+        }
+        .toggle{
+            display: none;
+            .pearent{
+                display: flex;
+                .toggleChild{
+                    border: 1px solid black;
+                    margin: 50px;
+                    padding: 10px;
+                    background-color: gray;
+                    .type{
+                        color: black;
+                        font-weight: bold;
+                        border-bottom: 1px solid black;
+                        font-size: 20px;
+                    }
+                    .describe{
+                        color: white;
+                        margin-top: 20px;
+                    }
+            }
+            }
+        }
+
     }
     .col-h{
         background-color: black;
         height: 0.0000001vh;
-    }
-    .imgBook{
-        background-image: url(../../img-php/本とメガネ.jpg);
-        height: 100vh;
-        width: 100%;
-        background-size: cover;
-        background-attachment: fixed;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        .myself{
-            font-size: 50px;
-            color: gray;
-            font-weight: bold;
-            border: 3px solid black;
-        }
     }
     .push{
         background-image: url(../../img-php/StartLine_image.jpg);
@@ -39,11 +63,162 @@
         justify-content: center;
         align-items: center;
         .start{
-            font-size: 50px;
-            color: gray;
-            font-weight: bold;
-            border: 3px solid black;
+            @include strings();
+        }
+        .start:hover{
+            @include changeText();
+        }
+        .INPUT{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .enter{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                .input-box{
+                    .input-part{
+                        margin-top: 30px;
+                        margin-bottom: 20px;
+                        font-size: 30px;
+                        font-weight: bold;
+                    }
+                    .required{
+                        font-size: 30px;
+                    }
+                }
+                .error-box{
+                    border: 2px solid red;
+                    .error{
+                        color: red;
+                        font-size: 40px;
+                        padding: 30px;
+                    }
+                }
+            }
         }
     }
 
+}
+
+//index.php終わり
+
+
+
+//questions.php始まり
+
+
+.Question{
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .Qes{
+        width: 500px;
+        border: 2px solid black;
+        margin: 20px;
+        .number{
+            font-size: 20px;
+            border-bottom: 1px solid red;
+            font-weight: bold;
+            padding: 10px;
+        }
+    }
+    .qesAn{
+        background-color: red;
+    }
+}
+
+.qesAn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    .ANswer{
+        font-size: 30px;
+        border-radius: 30px;
+        padding: 30px;
+        transition: 1s;
+    }
+}
+
+
+.ANswer:hover{
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+
+
+.conclusion{
+    display: flex;
+    justify-content: center;
+}
+
+//questions.php終わり
+
+
+//answer.php始まり
+
+.summary-header-php{
+    .res-php{
+        display: none;
+    }
+}
+
+
+.Allanswer{
+    h1{
+        font-size: 35px;
+    }
+    text-align: center;
+    .answerType{
+        img{
+            width: 100%;
+            height: 100%;
+        }
+        p{
+            font-size: 30px;
+            margin-top: 50px;
+            margin-bottom: 100px;
+        }
+    }
+
+}
+
+
+
+@media screen and(max-width:896px){
+    .summary-header-php{
+        .list-php{
+            display: none !important;
+        }
+        .block{
+            display: block !important;
+            .res-php{
+                display: block !important;
+                .res-pos{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    .btn{
+                        border: 1px solid black;
+                        border-radius: 100%;
+                        padding: 10px;
+                        font-size: 20px;
+                    }
+                    .res-li-php{
+                        margin-top: 20px;
+                        display: none;
+                        a{
+                            text-decoration: none;
+                            color: black;
+                        }
+                    }
+                }
+        }
+        }
+    }
 }

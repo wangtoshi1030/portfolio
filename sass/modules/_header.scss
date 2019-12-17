@@ -1,5 +1,6 @@
 
 
+
 // header始まり
 .name{
     @include name();
@@ -25,6 +26,8 @@
 
 // container始まり
 .container{
+    // overflow: hidden;
+    // overflow: auto;
     .pic-size{
         height: 100vh;
         width: 100%;
@@ -50,12 +53,14 @@
 
 
 @media screen and (max-width:560px){
-    .name{
-        font-size: 20px;
-    }
-    .li{
-        a{
+    .summary-header{
+        .name{
             font-size: 20px;
+        }
+        .list{
+            .li{
+                display: none;
+            }
         }
     }
 }

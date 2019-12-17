@@ -1,4 +1,6 @@
 
+
+// index.php
 .name-php{
     @include name();
 }
@@ -16,5 +18,17 @@
             @include li-hover();
         }
     }
+    .block{
+        display: none !important;
+        .res-php{
+            display: none !important;
+        }
+    }
 }
 
+// index.php
+
+
+.uuuu{
+    color: red;
+}
