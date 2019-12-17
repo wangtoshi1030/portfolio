@@ -12,6 +12,7 @@
                 display: flex;
                 margin-bottom: 50px;
                 .main-pic{
+                    object-fit: cover;
                     width: 30%;
                     height: 300px;
                     border-radius: 10%;
