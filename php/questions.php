@@ -43,16 +43,16 @@ if ($name == "") {
             <li class="li-php"><a href="../index.html">Home</a></li>
             <li class="li-php"><a href="https://qiita.com/wangtoshi">Qiita</a></li>
             <li class="li-php"><a href="https://github.com/wangtoshi1030">GitHub</a></li>
-            <li class="li-php"><a href="">Portfolio</a></li>
+            <li class="li-php"><a href="">Personality Test</a></li>
         </ul>
         <div class="block">
             <ul class="res-php">
                 <div class="res-pos">
                     <li class="btn"><p>menu</p></li>
-                    <li class="res-li-php"><a href="../index.html">Home</a></li>
+                    <li class="res-li-php"><a href="http://127.0.0.1:5500/index.html">Home</a></li>
                     <li class="res-li-php"><a href="https://qiita.com/wangtoshi">Qiita</a></li>
                     <li class="res-li-php"><a href="https://github.com/wangtoshi1030">GitHub</a></li>
-                    <li class="res-li-php"><a href="">Portfolio</a></li>
+                    <li class="res-li-php"><a href="">Personality Test</a></li>
                 </div>
             </ul>
         </div>

@@ -1,3 +1,9 @@
+
+
+.item{
+    margin-top: 100px;
+}
+
 .main{
     width: 90%;
     margin: 0 auto;
@@ -6,7 +12,6 @@
         .box{
             .headline{
                 font-size: 30px;
-                border-bottom: 2px solid red;
             }
             .part{
                 display: flex;
@@ -16,10 +21,12 @@
                     width: 30%;
                     height: 300px;
                     border-radius: 10%;
-                    .sentence{
-                        width: 70%;
-                        height: 100%;
-                    }
+                }
+                .sentence{
+                    width: 70%;
+                    height: 100%;
+                    font-size: 20px;
+                    line-height: 40px;
                 }
             }
         }
@@ -29,4 +36,31 @@
 .red{
     color: red;
     font-weight: bold;
+}
+
+
+@media screen and(max-width:896px){
+    .container{
+        .main{
+            display: flex;
+            flex-direction: column;
+            .all{
+                .box{
+                    .part{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        img{
+                            width: 100%;
+                        }
+                        .sentence{
+                            margin-top: 50px;
+                            line-height: 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
