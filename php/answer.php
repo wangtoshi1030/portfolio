@@ -1,4 +1,7 @@
 <?php
+require_once('dbconect.php'); //これらを繋げる
+require_once('function.php');
+
 $name = $_POST["name"];
 $age = $_POST["age"];
 $gender = $_POST["gender"];
@@ -13,7 +16,8 @@ $q6=$_POST["q6"];
 $total=$q1+$q2+$q3+$q4+$q5+$q6;
 
 
-
+$stmt = $dbh->prepare('INSERT INTO userdata (nickname, age, gender) VALUES (?, ?, ?)');
+$stmt->execute([$name, $age, $gender]);//?を変数に置き換えてSQLを実行
 
 ?>
 
