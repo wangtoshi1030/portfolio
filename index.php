@@ -53,7 +53,7 @@
                 <div class="box">
                     <h1 class="headline">経歴</h1>
                     <div class="part">
-                        <img class="main-pic" src="./img/IMG_3944.jpeg" alt="">
+                        <img class="main-pic" src="img/経歴.jpg" alt="">
                         <p class="sentence">
                             名前：橋本 昌林（ハシモト トシキ）<br>
                             出身：山梨県 甲府市<br>
