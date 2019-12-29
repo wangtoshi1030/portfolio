@@ -17,7 +17,7 @@
             <header class="name-php">Hashimoto Toshiki</header>
         </div>
         <ul class="list-php">
-            <li class="li-php"><a href="http://127.0.0.1:5500/index.html">Home</a></li>
+            <li class="li-php"><a href="../index.php">Home</a></li>
             <li class="li-php"><a href="https://qiita.com/wangtoshi">Qiita</a></li>
             <li class="li-php"><a href="https://github.com/wangtoshi1030">GitHub</a></li>
             <li class="li-php"><a href="">Personality Test</a></li>
